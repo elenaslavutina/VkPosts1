@@ -5,11 +5,11 @@ import ru.netology.domain.Post;
 public class PostManager {
     private Post[] posts;
 
-    public Post[] search(int id,int date , int stroka, int count){
+    public Post[] search(int ownerId, String domain, String query, boolean ownersOnly,int count,boolean extended){
         return null;
 
     }
-    public void delete(int id, int date){
+    public void delete(int ownerId, int postId){
 
     }
 }
