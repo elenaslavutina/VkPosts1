@@ -4,7 +4,6 @@ import ru.netology.domain.Post;
 
 public class PostManager {
     private Post[] posts;
-    private int [] duo = {0,1};
     private int ownerOnly = 0;
     private int extended = 0;
 
